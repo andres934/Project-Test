@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto Andres</string>
+    <string name="facebook_app_id">1175775532480739</string>
+    <string name="title_activity_login">Login</string>
+    <string name="hint_search">Buscar producto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

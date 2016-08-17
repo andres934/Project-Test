@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_foto"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="Tomar foto"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_agregar"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:title="Agregar producto"
+        app:showAsAction="ifRoom" />
+
+</menu>
