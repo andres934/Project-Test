@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'android-apt'
 
 repositories {
@@ -24,6 +25,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
 }
 
 dependencies {
@@ -40,4 +44,5 @@ dependencies {
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'
     compile 'com.tarun0.zxing-standalone:zxing-standalone:1.0.0'
     compile 'net.bozho.easycamera:easycamera:0.0.1:aar@aar'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
